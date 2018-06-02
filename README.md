@@ -15,33 +15,33 @@ Next N lines, each will contain a string S.
 Print the top five trending hashtags. In case of tie between any two hashtags, print them in lexicographical order in a new line.
 
 ## Constraints
-	10 ≤ N ≤ 10^3
-	1 ≤ | S | ≤ 140 where S denotes length of string S i.e. length of tweet.
-	Any hashtag denoted by H 1 ≤ | H | ≤ 20 where H denotes length of any hashtag H.
+10 ≤ N ≤ 10^3
+1 ≤ | S | ≤ 140 where S denotes length of string S i.e. length of tweet.
+Any hashtag denoted by H 1 ≤ | H | ≤ 20 where H denotes length of any hashtag H.
 
 ### Note
 Any tweet is composed of lowercase and uppercase English letters, digits and spaces.
 Any hashtag begins with # and the subsequent characters will only contain lowercase and uppercase English letters and digits.
 
 ## Sample Input
-`10
-Donald Trump becomes the 45th #US President
-Potentially habitable exoplanet #ProximaB discovered
-#RogerFederer wins #US Open for 5th time
-#GravitationalWaves detection successful
-Traces of liquid water discovered on #Mars
-Life Could Survive on Exoplanet #ProximaB
-Go go #RogerFederer
-Ten ways #ProximaB is different from Earth
-ISRO becomes 4th space agency to reach #Mars
-#RogerFederer beats #Nadal`
+	10
+	Donald Trump becomes the 45th #US President
+	Potentially habitable exoplanet #ProximaB discovered
+	#RogerFederer wins #US Open for 5th time
+	#GravitationalWaves detection successful
+	Traces of liquid water discovered on #Mars
+	Life Could Survive on Exoplanet #ProximaB
+	Go go #RogerFederer
+	Ten ways #ProximaB is different from Earth
+	ISRO becomes 4th space agency to reach #Mars
+	#RogerFederer beats #Nadal
 
 ## Sample Output
-`#ProximaB
-#RogerFederer
-#Mars
-#US
-#GravitationalWaves`
+	#ProximaB
+	#RogerFederer
+	#Mars
+	#US
+	#GravitationalWaves
 
 ## Usage
 1. Clone project repo: `git@github.com:hari696/twitter_hash_tag.git`
