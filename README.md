@@ -44,7 +44,7 @@ Any hashtag begins with # and the subsequent characters will only contain lowerc
 	#GravitationalWaves
 
 ## Usage
-1. Clone project repo: `git@github.com:hari696/twitter_hash_tag.git`
+1. Clone project repo: `ssh/https url`
 2. Run `python trendBrain.py`
 3. Give the same tweet as input
 4. Now you can see the Top Five trending Tweets
